@@ -129,8 +129,8 @@
     background-color: rgb(255, 151, 151);
   }
 }
-/* 
-@media only screen and (min-width: 410px) {
+
+@media only screen and (min-width: 992px) {
   *{
     padding: 0%;
     margin: 0%;
@@ -140,11 +140,16 @@
     margin: 0;
   }
   body{
+    height: 100vh;
     background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   #input-display{
     caret-color: transparent;
-    width: 97%;
+    width: 44%;
     padding: 20% 0 3% 0;
     background-color: #000;
     color: #fff;
@@ -160,12 +165,12 @@
     text-align: center;
     align-items: center;
     position: absolute;
-    bottom: 0;
+    top: 2vh;
+    bottom: 2vh;
   }
   h2{
-    height: 28%;
+    bottom: 2vh;
     background-color: #fff;
-    margin: 28% 0 0 0;
   }
   .btns, .btn-zero{
     color: white;
@@ -194,4 +199,4 @@
   .column-4{
     background-color: rgb(255, 151, 151);
   }
-} */
+}
