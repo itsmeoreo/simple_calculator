@@ -44,7 +44,6 @@ function stimulateKeyPress(key) {
     input.value= '0.'
   else
     input.value += key;
-  prevKey= key;
 }
 
 
